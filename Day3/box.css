@@ -1,0 +1,21 @@
+.redbox {
+  background-color: rgb(218, 166, 166);
+  width: 300px;
+  height: 300px;
+}
+
+.bluebox {
+  background-color: rgb(143, 143, 207);
+  width: 200px;
+  height: 200px;
+}
+
+.greenbox {
+  background-color: rgb(143, 207, 146);
+  width: 100px;
+  height: 100px;
+}
+
+.pinkbox {
+  background-color: pink;
+}
