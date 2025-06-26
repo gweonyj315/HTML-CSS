@@ -1,0 +1,54 @@
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 400px;
+    gap: 5px;
+}
+
+.cols{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.minibox{
+    width: 100px;
+    height: 100px;
+}
+
+/* col1 */
+.color11{
+    background-color: #ffbe76;
+}
+
+.color12{
+    background-color: #f0932b;
+}
+
+.color13{
+    background-color: #e056fd;
+}
+
+.color14{
+    background-color: #be2edd;
+}
+
+
+/* col2 */
+.color21{
+    background-color: #ff7979;
+}
+
+.color22{
+    background-color: #eb4d4b;
+}
+
+.color23{
+    background-color: #686de0;
+}
+
+.color24{
+    background-color: #4834d4;
+}
