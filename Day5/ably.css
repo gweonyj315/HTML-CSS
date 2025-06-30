@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.card{
+    width: 100px;
+    height: 130px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 70px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ccontainer{
+    width: 100dvw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
