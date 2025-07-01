@@ -1,0 +1,6 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-image: url("강릉.jfif");
+    background-size: cover;
+}
