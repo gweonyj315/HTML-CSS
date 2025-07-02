@@ -1,0 +1,31 @@
+.button{
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    color: rgb(235, 133, 0);
+    font-size: 30px;
+    border: 1px solid rgb(235, 133, 0);
+    border-radius: 6px;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 7px;
+
+    transition: all 1s;
+}
+
+.button:hover{
+    background-color: rgb(235, 133, 0);
+    color: white;
+
+
+}
+
+.window{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
