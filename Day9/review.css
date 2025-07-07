@@ -1,0 +1,47 @@
+.window {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+.card {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid red;
+}
+
+.card > img {
+  width: 80%;
+  height: 65%;
+  transition: all 0.3s;
+}
+
+.card > img:hover {
+  transform: scale(1.05);
+}
+
+.name {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
