@@ -1,0 +1,22 @@
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 20px auto;
+
+  width: 100vw;
+}
+
+header > .contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  color: black;
+}
