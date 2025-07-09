@@ -1,0 +1,41 @@
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-width: 1900px;
+}
+
+.third>.title{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    font-size: 60px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.third>.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.third>.cards>.card{
+    width: 700px;
+    height: 500px;
+    border-radius: 0px;
+}
+
+.third>.cards>.card1{
+    background-color: rgb(115, 122, 125);
+}
+
+.third>.cards>.card2{
+    padding: 0px 0px;
+}
+
+.third>.cards>.card2>img{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
