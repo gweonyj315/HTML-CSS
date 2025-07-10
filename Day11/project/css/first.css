@@ -2,23 +2,25 @@ header {
   padding: 30px 60px;
 }
 
-nav {
+.first>header>nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.links {
+
+.first>header>nav>.links {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 40px;
+  gap: 50px;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.logo {
+
+.first>header>nav>.logo {
   background-color: black;
   display: flex;
   flex-direction: row;
@@ -26,20 +28,20 @@ nav {
   justify-content: center;
 }
 
-.info {
+.first>header>nav>.info {
   color: white;
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 50px;
   align-items: center;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-.logo > img {
+.first>header>nav>.logo > img {
   width: 100px;
   height: 50px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .first {
@@ -50,57 +52,61 @@ nav {
   position: relative;
 }
 
-.words {
+.first>.container>.words {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.words > .word1 {
-  font-size: 14px;
+.first>.container>.words >.word1 {
+  font-size: 25px;
+  font-weight: 30;
   color: white;
+  margin-bottom: 8px;
 }
 
-.words > .word2 {
-  font-size: 40px;
-  font-weight: bold;
+.first>.container>.words >.word2 {
+  font-size: 70px;
+  font-weight: 300;
   color: white;
+  margin-bottom: 15px;
 }
 
-.container {
+.first>.container {
   position: absolute;
-  bottom: 70px;
-  left: 50px;
+  bottom: 100px;
+  left: 70px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 50px;
 }
 
-.button2 {
+.first>.container>.button>.button2 {
   background-color: rgb(19, 22, 39);
   color: white;
-  padding: 8px 15px;
-  font-size: 12px;
+  padding: 15px 30px;
+  font-size: 17px;
   font-weight: 500;
   border: none;
 }
 
-.button1 {
+.first>.container>.button>.button1 {
   background-color: white;
   color: black;
-  padding: 8px 15px;
-  font-size: 12px;
+  padding: 15px 30px;
+  font-size: 17px;
   font-weight: 500;
   border: none;
+  
 }
 
-.button {
+.first>.container>.button {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 
-.pop {
+.first>.pop {
   width: 40px;
   height: 40px;
   background-color: white;

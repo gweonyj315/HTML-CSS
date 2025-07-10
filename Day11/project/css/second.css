@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
 .second {
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +15,8 @@
 }
 
 .second > h2 {
-  font-size: 35px;
-  font-weight: 650;
+  font-size: 60px;
+  font-weight: 300;
 }
 
 .second > .links {
@@ -19,9 +25,115 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 35px;
-  font-size: 15px;
+  gap: 70px;
+  font-size: 25px;
   font-weight: 450;
   border-bottom: 0.3px solid rgb(204, 204, 204);
   padding: 10px 0;
+  margin-bottom: 60px;
+}
+
+.second>.cards{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  max-width: 1900px;
+}
+
+.second>.cards>.card{
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Pretendard-Regular';
+  padding: 50px 50px;
+  position: relative;
+}
+
+.second>.cards>.card>.title{
+  font-size: 30px;
+  font-weight: 5;
+}
+
+.second>.cards>.card>.subtitle{
+  font-size: 20px;
+  font-weight: 5;
+  color: rgb(164, 164, 164);
+}
+
+.second>.cards>.card>img{
+  width: 450px;
+  font-weight: 800px;
+  object-fit: cover;
+}
+
+.second>.cards>.card>.infos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.second>.cards>.card>.infos>.info{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second>.cards>.card>.infos>.info>.name{
+  color: black;
+  font-weight: 500;
+}
+
+.second>.cards>.card>.infos>.info>.detail{
+  color: gray;
+  font-weight: 500;
+  text-align: right;
+}
+
+.second>.cards>.card>.price{
+  color: black;
+  font-size: 35px;
+  text-align: right;
+  padding: 12px 0px;
+}
+
+.second>.cards>.card>.price>span{
+  font-size: 20px;
+}
+
+.second>.cards>.card>.buttons{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.second>.cards>.card>.buttons>.button1{
+  border: 0.3px solid black;
+}
+
+.second>.cards>.card>.pop{
+  width: 50px;
+  padding: 15px 20px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
+.second>.warn{
+  color: rgb(187, 187, 187);
+  font-size: 17px;
+  padding: 30px 0px;
 }
